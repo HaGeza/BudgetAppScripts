@@ -1,0 +1,5 @@
+val currenciesByDecimals = mapOf(
+	0 to listOf("CVE", "DJF", "GNF", "IDR", "JPY", "KMF", "KRW", "PYG", "RWF", "UGX", "VND", "VUV", "XAF", "XOF", "XPF"),
+	2 to listOf("AED", "ALL", "AMD", "ANG", "AOA", "ARS", "AUD", "AWG", "AZN", "BAM", "BBD", "BDT", "BGN", "BMD", "BND", "BOB", "BRL", "BSD", "BWP", "BYN", "BZD", "CAD", "CHF", "CLP", "CNH", "CNY", "COP", "CRC", "CUP", "CZK", "DKK", "DOP", "DZD", "EGP", "ETB", "EUR", "FJD", "FKP", "GBP", "GEL", "GHS", "GIP", "GMD", "GTQ", "GYD", "HKD", "HNL", "HTG", "HUF", "ILS", "INR", "ISK", "JMD", "KES", "KGS", "KHR", "KYD", "KZT", "LAK", "LBP", "LKR", "MAD", "MDL", "MKD", "MMK", "MNT", "MOP", "MRU", "MUR", "MVR", "MWK", "MXN", "MYR", "MZN", "NAD", "NGN", "NIO", "NOK", "NPR", "NZD", "PAB", "PEN", "PGK", "PHP", "PKR", "PLN", "QAR", "RON", "RSD", "RUB", "SAR", "SBD", "SCR", "SEK", "SGD", "SHP", "SLE", "SOS", "SRD", "STN", "SVC", "SZL", "THB", "TOP", "TRY", "TTD", "TWD", "TZS", "UAH", "USD", "UYU", "UZS", "VEF", "WST", "XCD", "YER", "ZAR", "ZMW"),
+	3 to listOf("BHD", "IQD", "JOD", "KWD", "LYD", "OMR", "TND"),
+)
