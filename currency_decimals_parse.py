@@ -11,15 +11,15 @@ if __name__ == "__main__":
         "--input",
         "-i",
         type=str,
-        help="Input file path", 
-        default="data/currency_decimals.html"
+        help="Input file path",
+        default="data/currencies_wikipedia.html",
     )
     parser.add_argument(
         "--output",
         "-o",
         type=str,
         help="Output file path",
-        default="output/currency_decimals.kt"
+        default="output/currency_info.kt",
     )
 
     args = parser.parse_args()
@@ -41,24 +41,25 @@ if __name__ == "__main__":
 
     code_col, decimals_col = columns[0], columns[2]
 
-    # Get decimal groups
-    decimal_groups = {}
-    for code, decimals in zip(parsed[code_col], parsed[decimals_col]):
-        num_dec = int(decimals.strip().split(" ", 1)[0])
-        if num_dec not in decimal_groups:
-            decimal_groups[num_dec] = []
-        decimal_groups[num_dec].append(code)
-
     # Generate Kotlin lists
-    output_parent = os.path.dirname(args.output)    
+    output_parent = os.path.dirname(args.output)
     if not os.path.exists(output_parent):
         os.makedirs(output_parent)
 
     with open(args.output, "w") as f:
-        f.write("val currenciesByDecimals = mapOf(\n")
-        for num_dec in sorted(decimal_groups.keys()):
-            codes = decimal_groups[num_dec]
-            f.write(f"\t{num_dec} to listOf(")
-            f.write(", ".join([f"\"{code}\"" for code in codes]))
-            f.write("),\n")
+        codes = []
+
+        f.write("val CURRENCIES_BY_DECIMALS = mapOf(\n")
+        for code, decimals in zip(parsed[code_col], parsed[decimals_col]):
+            try:
+                num_dec = int(decimals.strip().split(" ", 1)[0])
+            except ValueError:
+                continue
+            f.write(f'\t"{code}" to {num_dec},\n')
+            codes.append(code)
+        f.write(")\n\n")
+
+        f.write(f"val CURRENCY_CODES = listOf(\n")
+        for code in codes:
+            f.write(f'\t"{code}",\n')
         f.write(")\n")
