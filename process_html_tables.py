@@ -1,8 +1,19 @@
+"""
+Script for parsing HTML tables:
+- `--currency_in` --> `--currency_out`: generates two **Kotlin** variables: one is a list of supported currency codes,
+  one is a dictionary mapping from currency code to decimals
+- `--exchange_in` --> `--exchange_out`: generates a single **JSON** file to be used for pre-populating
+  the `exchange_rates` table of the application with rates for supported currencies to USD
+"""
+
 import argparse
 import json
 import os
 
 from bs4 import BeautifulSoup
+import numpy as np
+
+from settings import EXCHANGE_RATE_OUT
 
 
 def parse_html_table(in_path: str) -> tuple[dict, dict]:
@@ -122,7 +133,7 @@ def generate_exchange_rates_json(
             {
                 "source": code.strip(),
                 "other": "USD",
-                "rate": num_rate,
+                "rate": np.format_float_positional(num_rate, trim="-"),
             }
         )
 
@@ -159,7 +170,7 @@ if __name__ == "__main__":
         "-eo",
         type=str,
         help="Exchange output file path",
-        default="output/usd_exchange_rates.json",
+        default=EXCHANGE_RATE_OUT,
     )
 
     args = parser.parse_args()
