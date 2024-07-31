@@ -2,6 +2,8 @@ CREATE TABLE IF NOT EXISTS accounts (`name` TEXT NOT NULL, `balance` TEXT NOT NU
 
 CREATE TABLE IF NOT EXISTS exchange_rates (`source` TEXT NOT NULL, `other` TEXT NOT NULL, `rate` REAL NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL);
 
+CREATE UNIQUE INDEX IF NOT EXISTS `index_exchange_rates_source_other` ON exchange_rates (`source`, `other`);
+
 INSERT INTO exchange_rates (source, other, rate) VALUES
 ('USD', 'USD', 1),
 ('EUR', 'USD', 1.0808594296167404),

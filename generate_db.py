@@ -1,5 +1,6 @@
 """
-Script to generate and execute an `.sql` file to be used for pre-populating the database:
+Script to generate and execute an `.sql` file to be used for pre-populating the database.
+Make sure to define `APP_DIR` in `local_settings.py` before running the script.
 """
 
 import argparse
@@ -9,7 +10,12 @@ import sqlite3
 
 from natsort import natsorted
 
-from local_settings import APP_DIR
+try:
+    from local_settings import APP_DIR
+except ImportError:
+    raise ImportError(
+        "Please define `APP_DIR` in `local_settings.py` before running the script."
+    )
 from settings import EXCHANGE_RATE_OUT
 
 if __name__ == "__main__":
@@ -68,11 +74,16 @@ if __name__ == "__main__":
         create_sql = entity["createSql"].replace("`${TABLE_NAME}`", table_name)
         sql_script += f"{create_sql};\n\n"
 
+        for index in entity.get("indices", []):
+            index_sql = index["createSql"].replace("`${TABLE_NAME}`", table_name)
+            sql_script += f"{index_sql};\n\n"
+
     # Insert exchange rates
     with open(args.exchange_json, "r") as f:
         exchange_rates = json.load(f)
 
     sql_script += f"INSERT INTO {EXCHANGE_RATE_TABLE} (source, other, rate) VALUES"
+
     for entry in exchange_rates:
         source, other, rate = entry["source"], entry["other"], entry["rate"]
         sql_script += f"\n('{source}', '{other}', {rate}),"
@@ -83,9 +94,12 @@ if __name__ == "__main__":
         print(f"SQL script created at {args.sql_path}")
 
     # Execute script and save resulting database
-    db_path = os.path.join(
-        args.db_dir, f"{DATABASE_NAME.split('.')[-1]}_{schema_version}.db"
-    )
+    db_name = f"{DATABASE_NAME.split('.')[-1]}_{schema_version}.db"
+    db_path = os.path.join(args.db_dir, db_name)
+    if not os.path.exists(args.db_dir):
+        os.makedirs(args.db_dir)
+    if os.path.exists(db_path):
+        os.remove(db_path)
 
     # Connect to the SQLite database
     with sqlite3.connect(db_path) as conn:
