@@ -1,0 +1,812 @@
+[
+    {
+        "source": "USD",
+        "other": "USD",
+        "rate": 1.0
+    },
+    {
+        "source": "EUR",
+        "other": "USD",
+        "rate": 1.0808594296167404
+    },
+    {
+        "source": "GBP",
+        "other": "USD",
+        "rate": 1.282835681986569
+    },
+    {
+        "source": "INR",
+        "other": "USD",
+        "rate": 0.011945482024615478
+    },
+    {
+        "source": "AUD",
+        "other": "USD",
+        "rate": 0.6535407952822819
+    },
+    {
+        "source": "CAD",
+        "other": "USD",
+        "rate": 0.7220905363154709
+    },
+    {
+        "source": "SGD",
+        "other": "USD",
+        "rate": 0.7442584956281133
+    },
+    {
+        "source": "CHF",
+        "other": "USD",
+        "rate": 1.1294746707075805
+    },
+    {
+        "source": "MYR",
+        "other": "USD",
+        "rate": 0.21617547870865947
+    },
+    {
+        "source": "JPY",
+        "other": "USD",
+        "rate": 0.006504068402113431
+    },
+    {
+        "source": "CNY",
+        "other": "USD",
+        "rate": 0.13790965466074423
+    },
+    {
+        "source": "NZD",
+        "other": "USD",
+        "rate": 0.5896845662813246
+    },
+    {
+        "source": "THB",
+        "other": "USD",
+        "rate": 0.027807787443929192
+    },
+    {
+        "source": "HUF",
+        "other": "USD",
+        "rate": 0.0027343847707153087
+    },
+    {
+        "source": "AED",
+        "other": "USD",
+        "rate": 0.27229407760381213
+    },
+    {
+        "source": "HKD",
+        "other": "USD",
+        "rate": 0.12799184624428206
+    },
+    {
+        "source": "MXN",
+        "other": "USD",
+        "rate": 0.053184582020882006
+    },
+    {
+        "source": "ZAR",
+        "other": "USD",
+        "rate": 0.054471755419042964
+    },
+    {
+        "source": "PHP",
+        "other": "USD",
+        "rate": 0.017068954039984135
+    },
+    {
+        "source": "SEK",
+        "other": "USD",
+        "rate": 0.09266990924387246
+    },
+    {
+        "source": "IDR",
+        "other": "USD",
+        "rate": 6.127529452229728e-05
+    },
+    {
+        "source": "BRL",
+        "other": "USD",
+        "rate": 0.17686295045573247
+    },
+    {
+        "source": "SAR",
+        "other": "USD",
+        "rate": 0.26666666666666666
+    },
+    {
+        "source": "TRY",
+        "other": "USD",
+        "rate": 0.030226261112013902
+    },
+    {
+        "source": "KES",
+        "other": "USD",
+        "rate": 0.007663729583192907
+    },
+    {
+        "source": "KRW",
+        "other": "USD",
+        "rate": 0.0007218940791697754
+    },
+    {
+        "source": "EGP",
+        "other": "USD",
+        "rate": 0.02064272968367732
+    },
+    {
+        "source": "IQD",
+        "other": "USD",
+        "rate": 0.0007632026607606563
+    },
+    {
+        "source": "NOK",
+        "other": "USD",
+        "rate": 0.09110367317872275
+    },
+    {
+        "source": "KWD",
+        "other": "USD",
+        "rate": 3.270419819667835
+    },
+    {
+        "source": "RUB",
+        "other": "USD",
+        "rate": 0.011397613998479795
+    },
+    {
+        "source": "DKK",
+        "other": "USD",
+        "rate": 0.14483844598849338
+    },
+    {
+        "source": "PKR",
+        "other": "USD",
+        "rate": 0.0035905725841968166
+    },
+    {
+        "source": "ILS",
+        "other": "USD",
+        "rate": 0.26682335353604236
+    },
+    {
+        "source": "PLN",
+        "other": "USD",
+        "rate": 0.2518966236656208
+    },
+    {
+        "source": "QAR",
+        "other": "USD",
+        "rate": 0.2747252747252747
+    },
+    {
+        "source": "XAU",
+        "other": "USD",
+        "rate": 2385.2645550237357
+    },
+    {
+        "source": "OMR",
+        "other": "USD",
+        "rate": 2.5973704781532674
+    },
+    {
+        "source": "COP",
+        "other": "USD",
+        "rate": 0.00024492516555955647
+    },
+    {
+        "source": "CLP",
+        "other": "USD",
+        "rate": 0.0010443100301093138
+    },
+    {
+        "source": "TWD",
+        "other": "USD",
+        "rate": 0.030403751113502506
+    },
+    {
+        "source": "ARS",
+        "other": "USD",
+        "rate": 0.0010732615775386524
+    },
+    {
+        "source": "CZK",
+        "other": "USD",
+        "rate": 0.0425032094759636
+    },
+    {
+        "source": "VND",
+        "other": "USD",
+        "rate": 3.9814053467148964e-05
+    },
+    {
+        "source": "MAD",
+        "other": "USD",
+        "rate": 0.10087438034688727
+    },
+    {
+        "source": "JOD",
+        "other": "USD",
+        "rate": 1.4104372355430184
+    },
+    {
+        "source": "BHD",
+        "other": "USD",
+        "rate": 2.6595744680851063
+    },
+    {
+        "source": "XOF",
+        "other": "USD",
+        "rate": 0.0016477595781686002
+    },
+    {
+        "source": "LKR",
+        "other": "USD",
+        "rate": 0.0033068800855529396
+    },
+    {
+        "source": "UAH",
+        "other": "USD",
+        "rate": 0.024360434401492832
+    },
+    {
+        "source": "NGN",
+        "other": "USD",
+        "rate": 0.0006047957485907834
+    },
+    {
+        "source": "TND",
+        "other": "USD",
+        "rate": 0.32229457194019273
+    },
+    {
+        "source": "UGX",
+        "other": "USD",
+        "rate": 0.00026882469553241316
+    },
+    {
+        "source": "RON",
+        "other": "USD",
+        "rate": 0.217208489687132
+    },
+    {
+        "source": "BDT",
+        "other": "USD",
+        "rate": 0.008509464796623602
+    },
+    {
+        "source": "PEN",
+        "other": "USD",
+        "rate": 0.26765471177832817
+    },
+    {
+        "source": "GEL",
+        "other": "USD",
+        "rate": 0.36711495870683314
+    },
+    {
+        "source": "FJD",
+        "other": "USD",
+        "rate": 0.44219603109054884
+    },
+    {
+        "source": "VES",
+        "other": "USD",
+        "rate": 0.02735072771640374
+    },
+    {
+        "source": "BYN",
+        "other": "USD",
+        "rate": 0.3058134286123495
+    },
+    {
+        "source": "UZS",
+        "other": "USD",
+        "rate": 8.007027308855382e-05
+    },
+    {
+        "source": "BGN",
+        "other": "USD",
+        "rate": 0.5526346510774149
+    },
+    {
+        "source": "DZD",
+        "other": "USD",
+        "rate": 0.00741702044290872
+    },
+    {
+        "source": "IRR",
+        "other": "USD",
+        "rate": 2.373897845421907e-05
+    },
+    {
+        "source": "DOP",
+        "other": "USD",
+        "rate": 0.016829733524860557
+    },
+    {
+        "source": "ISK",
+        "other": "USD",
+        "rate": 0.007229758395356043
+    },
+    {
+        "source": "CRC",
+        "other": "USD",
+        "rate": 0.0018961360575601327
+    },
+    {
+        "source": "XAG",
+        "other": "USD",
+        "rate": 27.978426615968694
+    },
+    {
+        "source": "SYP",
+        "other": "USD",
+        "rate": 7.691214785546999e-05
+    },
+    {
+        "source": "JMD",
+        "other": "USD",
+        "rate": 0.0063870472220077254
+    },
+    {
+        "source": "LYD",
+        "other": "USD",
+        "rate": 0.20662431701824513
+    },
+    {
+        "source": "GHS",
+        "other": "USD",
+        "rate": 0.06438031444975373
+    },
+    {
+        "source": "MUR",
+        "other": "USD",
+        "rate": 0.02144775170253744
+    },
+    {
+        "source": "AOA",
+        "other": "USD",
+        "rate": 0.0011264855387689283
+    },
+    {
+        "source": "UYU",
+        "other": "USD",
+        "rate": 0.024817894973853522
+    },
+    {
+        "source": "AFN",
+        "other": "USD",
+        "rate": 0.014097799997242599
+    },
+    {
+        "source": "LBP",
+        "other": "USD",
+        "rate": 1.1020669808570402e-05
+    },
+    {
+        "source": "XPF",
+        "other": "USD",
+        "rate": 0.009057602020221437
+    },
+    {
+        "source": "TTD",
+        "other": "USD",
+        "rate": 0.14726643241274162
+    },
+    {
+        "source": "TZS",
+        "other": "USD",
+        "rate": 0.00036964404919862984
+    },
+    {
+        "source": "ALL",
+        "other": "USD",
+        "rate": 0.010780883354059315
+    },
+    {
+        "source": "XCD",
+        "other": "USD",
+        "rate": 0.37013268326861776
+    },
+    {
+        "source": "GTQ",
+        "other": "USD",
+        "rate": 0.1289817211063998
+    },
+    {
+        "source": "NPR",
+        "other": "USD",
+        "rate": 0.007462428252141484
+    },
+    {
+        "source": "BOB",
+        "other": "USD",
+        "rate": 0.14466028351437268
+    },
+    {
+        "source": "BBD",
+        "other": "USD",
+        "rate": 0.5
+    },
+    {
+        "source": "LAK",
+        "other": "USD",
+        "rate": 4.5121845547376084e-05
+    },
+    {
+        "source": "BND",
+        "other": "USD",
+        "rate": 0.7442584956281133
+    },
+    {
+        "source": "BWP",
+        "other": "USD",
+        "rate": 0.07349736932442462
+    },
+    {
+        "source": "HNL",
+        "other": "USD",
+        "rate": 0.040333408222810924
+    },
+    {
+        "source": "PYG",
+        "other": "USD",
+        "rate": 0.00013199947537106287
+    },
+    {
+        "source": "ETB",
+        "other": "USD",
+        "rate": 0.01734041620943299
+    },
+    {
+        "source": "NAD",
+        "other": "USD",
+        "rate": 0.054471755419042964
+    },
+    {
+        "source": "PGK",
+        "other": "USD",
+        "rate": 0.25710117881327704
+    },
+    {
+        "source": "SDG",
+        "other": "USD",
+        "rate": 0.0016681020914607312
+    },
+    {
+        "source": "MOP",
+        "other": "USD",
+        "rate": 0.12426392839250684
+    },
+    {
+        "source": "BMD",
+        "other": "USD",
+        "rate": 1.0
+    },
+    {
+        "source": "NIO",
+        "other": "USD",
+        "rate": 0.027145610457880692
+    },
+    {
+        "source": "BAM",
+        "other": "USD",
+        "rate": 0.5526346510774149
+    },
+    {
+        "source": "KZT",
+        "other": "USD",
+        "rate": 0.0021099258727436607
+    },
+    {
+        "source": "PAB",
+        "other": "USD",
+        "rate": 1.0
+    },
+    {
+        "source": "GYD",
+        "other": "USD",
+        "rate": 0.004784254328095134
+    },
+    {
+        "source": "YER",
+        "other": "USD",
+        "rate": 0.003997237636349372
+    },
+    {
+        "source": "MGA",
+        "other": "USD",
+        "rate": 0.0002191954121989219
+    },
+    {
+        "source": "KYD",
+        "other": "USD",
+        "rate": 1.217242946377812
+    },
+    {
+        "source": "MZN",
+        "other": "USD",
+        "rate": 0.015649835423297946
+    },
+    {
+        "source": "RSD",
+        "other": "USD",
+        "rate": 0.009232620070720784
+    },
+    {
+        "source": "SCR",
+        "other": "USD",
+        "rate": 0.07366243042138945
+    },
+    {
+        "source": "AMD",
+        "other": "USD",
+        "rate": 0.0025898785678700955
+    },
+    {
+        "source": "AZN",
+        "other": "USD",
+        "rate": 0.5879706533038532
+    },
+    {
+        "source": "SBD",
+        "other": "USD",
+        "rate": 0.1203099208689218
+    },
+    {
+        "source": "TOP",
+        "other": "USD",
+        "rate": 0.4181227777948245
+    },
+    {
+        "source": "BZD",
+        "other": "USD",
+        "rate": 0.493990724208035
+    },
+    {
+        "source": "GMD",
+        "other": "USD",
+        "rate": 0.014681139085089013
+    },
+    {
+        "source": "MWK",
+        "other": "USD",
+        "rate": 0.0005760315073499003
+    },
+    {
+        "source": "BIF",
+        "other": "USD",
+        "rate": 0.0003475069350135885
+    },
+    {
+        "source": "HTG",
+        "other": "USD",
+        "rate": 0.00756774847777165
+    },
+    {
+        "source": "SOS",
+        "other": "USD",
+        "rate": 0.0017549919972116234
+    },
+    {
+        "source": "GNF",
+        "other": "USD",
+        "rate": 0.00011600343797028616
+    },
+    {
+        "source": "MNT",
+        "other": "USD",
+        "rate": 0.000294312521130478
+    },
+    {
+        "source": "MVR",
+        "other": "USD",
+        "rate": 0.06485334837012936
+    },
+    {
+        "source": "CDF",
+        "other": "USD",
+        "rate": 0.00035229025325300586
+    },
+    {
+        "source": "STN",
+        "other": "USD",
+        "rate": 0.0440825367015703
+    },
+    {
+        "source": "TJS",
+        "other": "USD",
+        "rate": 0.09448257599515134
+    },
+    {
+        "source": "KPW",
+        "other": "USD",
+        "rate": 0.001111097508266795
+    },
+    {
+        "source": "KGS",
+        "other": "USD",
+        "rate": 0.011900594040286365
+    },
+    {
+        "source": "LRD",
+        "other": "USD",
+        "rate": 0.00511787606133603
+    },
+    {
+        "source": "LSL",
+        "other": "USD",
+        "rate": 0.054471755419042964
+    },
+    {
+        "source": "MMK",
+        "other": "USD",
+        "rate": 0.00047658419381683547
+    },
+    {
+        "source": "GIP",
+        "other": "USD",
+        "rate": 1.282835681986569
+    },
+    {
+        "source": "XPT",
+        "other": "USD",
+        "rate": 956.6060647008901
+    },
+    {
+        "source": "MDL",
+        "other": "USD",
+        "rate": 0.05636104630112483
+    },
+    {
+        "source": "CUP",
+        "other": "USD",
+        "rate": 0.041686957615321395
+    },
+    {
+        "source": "KHR",
+        "other": "USD",
+        "rate": 0.00024381494500132157
+    },
+    {
+        "source": "MKD",
+        "other": "USD",
+        "rate": 0.017559978430667332
+    },
+    {
+        "source": "VUV",
+        "other": "USD",
+        "rate": 0.008341791571165984
+    },
+    {
+        "source": "ANG",
+        "other": "USD",
+        "rate": 0.5579259511318546
+    },
+    {
+        "source": "MRU",
+        "other": "USD",
+        "rate": 0.0252523990420492
+    },
+    {
+        "source": "SZL",
+        "other": "USD",
+        "rate": 0.054471755419042964
+    },
+    {
+        "source": "CVE",
+        "other": "USD",
+        "rate": 0.009801935518425144
+    },
+    {
+        "source": "SRD",
+        "other": "USD",
+        "rate": 0.03449042311238136
+    },
+    {
+        "source": "SVC",
+        "other": "USD",
+        "rate": 0.11428571428571428
+    },
+    {
+        "source": "XPD",
+        "other": "USD",
+        "rate": 889.1721457431976
+    },
+    {
+        "source": "BSD",
+        "other": "USD",
+        "rate": 1.0
+    },
+    {
+        "source": "XDR",
+        "other": "USD",
+        "rate": 1.3240419194447737
+    },
+    {
+        "source": "RWF",
+        "other": "USD",
+        "rate": 0.0007577168010189062
+    },
+    {
+        "source": "AWG",
+        "other": "USD",
+        "rate": 0.5586592178770949
+    },
+    {
+        "source": "BTN",
+        "other": "USD",
+        "rate": 0.011945482024615478
+    },
+    {
+        "source": "DJF",
+        "other": "USD",
+        "rate": 0.005625544024948112
+    },
+    {
+        "source": "KMF",
+        "other": "USD",
+        "rate": 0.002197012770891467
+    },
+    {
+        "source": "ERN",
+        "other": "USD",
+        "rate": 0.06666666666666667
+    },
+    {
+        "source": "FKP",
+        "other": "USD",
+        "rate": 1.282835681986569
+    },
+    {
+        "source": "SHP",
+        "other": "USD",
+        "rate": 1.282835681986569
+    },
+    {
+        "source": "WST",
+        "other": "USD",
+        "rate": 0.35965114178318563
+    },
+    {
+        "source": "TMT",
+        "other": "USD",
+        "rate": 0.28870445113210624
+    },
+    {
+        "source": "ZMW",
+        "other": "USD",
+        "rate": 0.03820387872683574
+    },
+    {
+        "source": "CLF",
+        "other": "USD",
+        "rate": 39.35039297295132
+    },
+    {
+        "source": "MXV",
+        "other": "USD",
+        "rate": 0.4383307071373525
+    },
+    {
+        "source": "SLE",
+        "other": "USD",
+        "rate": 0.04458711945886461
+    },
+    {
+        "source": "VED",
+        "other": "USD",
+        "rate": 0.02735072771640374
+    },
+    {
+        "source": "ZWG",
+        "other": "USD",
+        "rate": 0.07257005713811952
+    },
+    {
+        "source": "ZWL",
+        "other": "USD",
+        "rate": 2.904284399939758e-05
+    }
+]
