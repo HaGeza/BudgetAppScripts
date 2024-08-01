@@ -85,7 +85,7 @@ def generate_currency_info_constants(
     with open(out_file, "w") as f:
         seen_codes = []
 
-        f.write("val CURRENCIES_BY_DECIMALS = mapOf(\n")
+        f.write("val CURRENCY_DECIMALS = mapOf<String, UInt>(\n")
         for code, decimals in zip(currency_data[code_col], currency_data[decimals_col]):
             if codes and code not in codes:
                 continue
@@ -94,7 +94,7 @@ def generate_currency_info_constants(
                 num_dec = int(decimals.strip().split(" ", 1)[0])
             except ValueError:
                 continue
-            f.write(f'\t"{code}" to {num_dec},\n')
+            f.write(f'\t"{code}" to {num_dec}U,\n')
             seen_codes.append(code)
         f.write(")\n\n")
 
